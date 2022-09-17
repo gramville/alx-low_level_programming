@@ -1,4 +1,7 @@
 #include "main.h"
+/*
+*This function prints  the word _putchar
+*/
 
 int main(void)
 {

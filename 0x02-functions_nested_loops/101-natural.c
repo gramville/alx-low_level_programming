@@ -9,10 +9,10 @@ int main()
 {
 	int i, res=0;
 
-	for (i = 0; i < 1024; i++)
+	for (i = 0; i < 1024; i++){
 		if (i % 3 == 0 || i % 5 == 0)
 			res += i;
-	printf("%d", res);
-	printf("%d", "\n");
+	}
+	printf("%d\n", res);
 	return (0);
 }

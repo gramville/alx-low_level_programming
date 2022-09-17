@@ -12,6 +12,7 @@ int main()
 	for (i = 0; i < 1024; i++)
 		if (i % 3 == 0 || i % 5 == 0)
 			res += i;
-	printf("%d\n", res);
+	printf("%d", res);
+	printf("%d", "\n");
 	return (0);
 }
